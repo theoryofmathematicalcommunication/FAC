@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{graphicx} % Required for inserting images
+
+\DeclareMathOperator{\ouv}{Open}
+\DeclareMathOperator{\Hom}{Hom}
+\newtheorem{exam}{Example}
+\title{Coherent Algeraic Sheaves}
+\author{\textbf{Jean-Pierre Serre} \\ \\  Translated by Quentin Asparria and Axel Tamir}
+\date{April 2026}
+\newcounter{para}
+\newcommand*{\numberedparagraph}{%
+ \refstepcounter{para}\textbf{\thepara.}\space
+}
+
+
+\begin{document}
+
+\maketitle
+\section{Sheaves}
+\subsection{Operations on Sheaves}
+\numberedparagraph \textbf{The Definition of a Sheaf.} Let $X$ be a topological space. A \textit{sheaf of abelian groups} over $X$ (or simply a \textit{sheaf}) consists of: 
+\begin{enumerate}[font=\upshape,label=(\alph*)]
+    \itshape
+    \item A function $x\to\mathcal F_x$ sending each $x\in X$ to an abelian group $\mathcal F_x,$
+    \item A topology on the set $\mathcal F$, the disjoint union of the $\mathcal F_x.$
+\end{enumerate}
+If $f$ is an element of $\mathcal F,$ we take $\pi(f)=x$; The function $\pi$ is called the \textit{projection} of $\mathcal F$ onto $X$; the subset of $\mathcal F\times\mathcal F$ formed by pairs $(f,g)$ such that $\pi(f)=\pi(g)$ is written $\mathcal F+\mathcal F.$\footnote{If you think of $\pi$ as the canonical homomorphism from $\mathcal F$ to $0$ (cf. paragraph 8), this is the usual definition of the direct product as the pullback of $0$-morphisms.} With these definitions in place, we may formulate the two axioms that organize the data in (a) and (b):
+\begin{enumerate}[font=\upshape,label=(\Roman*)]
+    \itshape
+    \item For every $f\in\mathcal F,$ there exists a neighborhood $V$ of $f$ and a neighborhood $U$ of $\pi(f)$ such that the restriction of $\pi$ to $V$ is a homeomorphism of $V$ onto $U$.
+    \item 
+\end{enumerate}
+\section{Algebraic Varieties---Coherent Algebraic Sheaves Over Affine Varieties}
+\section{Coherent Algebraic Sheaves Over Projective Varieties}
+\end{document}
