@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1780390301.00648 "main.tex" "build/main.pdf" "main" 1780390302.06718 0
+["pdflatex"] 1780434719.31221 "main.tex" "build/main.pdf" "main" 1780434720.04185 0
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -125,9 +125,9 @@
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1780354364 5573038 ad3e0d8c63dbec7957113a2386d66888 ""
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1780354488 3656602 f8f224638f0a1c2730c446ff6a151237 ""
   "/usr/local/texlive/2026/texmf.cnf" 1774209515 577 648cd9f92f9c0eac486f4c71c85cfbbe ""
-  "build/main.aux" 1780390301.97441 544 7fa0f922e8b8c86886d056987f3ddbd2 "pdflatex"
-  "build/main.toc" 1780390301.97801 272 1642be4095b1f933ec32c3dfcb998996 "pdflatex"
-  "main.tex" 1780390299.15703 2504 107a79ad2b812e4c7ce80feddcd2b171 ""
+  "build/main.aux" 1780434719.97451 544 b776d40d8f35c85908eb32ca21aee7b4 "pdflatex"
+  "build/main.toc" 1780434719.9774 272 a2af209ed68087dea5ca887695995930 "pdflatex"
+  "main.tex" 1780434718.84967 3751 8a97cc7c5819d89325680286f614e4b2 ""
   (generated)
   "build/main.aux"
   "build/main.log"
