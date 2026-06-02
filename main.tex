@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{book}
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
@@ -6,7 +6,6 @@
 \usepackage{tikz-cd}
 \usepackage{lipsum}
 \usepackage{enumitem}
-\usepackage{graphicx} % Required for inserting images
 
 \DeclareMathOperator{\ouv}{Open}
 \DeclareMathOperator{\Hom}{Hom}
@@ -19,24 +18,36 @@
  \refstepcounter{para}\textbf{\thepara.}\space
 }
 
+\setlength{\parindent}{20pt}
+
 
 \begin{document}
 
 \maketitle
-\section{Sheaves}
-\subsection{Operations on Sheaves}
-\numberedparagraph \textbf{The Definition of a Sheaf.} Let $X$ be a topological space. A \textit{sheaf of abelian groups} over $X$ (or simply a \textit{sheaf}) consists of: 
-\begin{enumerate}[font=\upshape,label=(\alph*)]
-    \itshape
-    \item A function $x\to\mathcal F_x$ sending each $x\in X$ to an abelian group $\mathcal F_x,$
-    \item A topology on the set $\mathcal F$, the disjoint union of the $\mathcal F_x.$
+
+\tableofcontents
+
+\chapter{Sheaves}
+
+\section{Operations on Sheaves}
+
+\subsection{Definition of a sheaf}
+
+\par Let $X$ be a topological space. A \textit{sheaf of abelian groups} on $X$ (or simply a \textit{sheaf}) consist of:
+
+\begin{enumerate}[label = (\alph*)]
+	\item A \textit{function} $x \rightarrow \mathcal{F}_x$ \textit{sending every} $x \in X$ to an abelian group $\mathcal{F}_x$, 
+	\item A topoology on the set $\mathcal{F}$, the sum of the sets $\mathcal{F}_x$. 
 \end{enumerate}
-If $f$ is an element of $\mathcal F,$ we take $\pi(f)=x$; The function $\pi$ is called the \textit{projection} of $\mathcal F$ onto $X$; the subset of $\mathcal F\times\mathcal F$ formed by pairs $(f,g)$ such that $\pi(f)=\pi(g)$ is written $\mathcal F+\mathcal F.$\footnote{If you think of $\pi$ as the canonical homomorphism from $\mathcal F$ to $0$ (cf. paragraph 8), this is the usual definition of the direct product as the pullback of $0$-morphisms.} With these definitions in place, we may formulate the two axioms that organize the data in (a) and (b):
-\begin{enumerate}[font=\upshape,label=(\Roman*)]
-    \itshape
-    \item For every $f\in\mathcal F,$ there exists a neighborhood $V$ of $f$ and a neighborhood $U$ of $\pi(f)$ such that the restriction of $\pi$ to $V$ is a homeomorphism of $V$ onto $U$.
-    \item 
+
+If $f$ is an element of $\mathcal{F}_x$, we put $\pi (f) = x$; the map $\pi$ is called the projection of $\mathcal F$ on $X$; the subset of $\mathcal F \times \mathcal F$ formed the pairs $(f,g)$ such that $\pi(f) = \pi(g)$ is denoted $\mathcal F + \mathcal F$. 
+
+With these definitions in place, we can state the two axioms to which the data (a) and (b)  are subject:
+\begin{enumerate}[label=(\Roman*)]
+
+\item For all $f \in \mathcal F$, there exist open neighborhoods $V$ of $f$ and $U$ of $\pi(f)$ such that the restriction of $\pi$ at $V$ is a homeomorphism of $V$ onto $U$ 
+
 \end{enumerate}
-\section{Algebraic Varieties---Coherent Algebraic Sheaves Over Affine Varieties}
-\section{Coherent Algebraic Sheaves Over Projective Varieties}
+
+
 \end{document}
