@@ -2,3 +2,4 @@
 \contentsline {section}{\numberline {1.1}Operations on Sheaves}{5}{}%
 \contentsline {subsection}{\numberline {1.1.1}Definition of a sheaf}{5}{}%
 \contentsline {subsection}{\numberline {1.1.2}Sections of a sheaf}{6}{}%
+\contentsline {subsection}{\numberline {1.1.3}Construction of sheaves}{6}{}%
